@@ -1,0 +1,37 @@
+* {
+	margin: 1;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+.container {
+	border: 1px solid #CCC;
+	width: 600px;
+}
+
+.cajas {
+	width: 25%;
+	height: 100px;
+	float: left;
+}	
+
+.amarillo {
+	background-color: #FFFF00;
+}
+
+.azul {
+	background-color: #3A81BA; 
+}
+
+.rojo {
+	background-color: #ED2251;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
